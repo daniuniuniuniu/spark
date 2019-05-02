@@ -16,6 +16,7 @@ I use NaiveBayes and random forest to model the data. Since I need to predict fo
 
 ### Results section
 For the exploratory part, let me summarize the result. Subreddit_type stands for the type of subreddit, and most of them belong to public while a small amount belong to restricted. For no_follow column, a quarter of population has followers. Most posts are controversial according to the graph. Last, score means the popularity of a post, which ranges from negative to 20 thousand. It shows that for a specific post, people tend to have various attitude towards it. I believe the subreddit_type, whether the post is controversial, whether having followers will all affect the score, so I build the model to predict the score_bin.  
+
 As we can see, for NaiveBayes Model, the accuracy for test data is 0.72. For random forest model, the accuracy for test data is 0.82. Since random forest makes decision based on many trees, it will definitely performs better than the NaiveBayes model. Both of them prove to be good model, these four predictors indeed decides the score to some extent.
 
 ### Future work
